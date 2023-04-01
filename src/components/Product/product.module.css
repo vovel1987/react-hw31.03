@@ -1,0 +1,32 @@
+.container {
+  width: 1200px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: rgba(52, 73, 94, 1);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: inter;
+  color: white;
+}
+.price1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: inter;
+    color: rgb(146, 59, 59);
+    text-decoration: line-through;
+}
